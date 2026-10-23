@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Data Analyst Agent</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #08111f;
+            color: #f8fafc;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 80px 24px;
+        }
+
+        h1 {
+            font-size: clamp(32px, 6vw, 56px);
+            color: #38bdf8;
+        }
+
+        h2 {
+            margin-top: 55px;
+            color: #a78bfa;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #cbd5e1;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .card {
+            background: #111e32;
+            border: 1px solid #263b59;
+            border-radius: 14px;
+            padding: 24px;
+        }
+
+        .card h3 {
+            color: #67e8f9;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 30px;
+            border-radius: 10px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 70px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+
+        <h1>AI Data Analyst Agent</h1>
+
+        <p>
+            An AI-powered multi-agent business analytics
+            application developed using Python, Streamlit,
+            LangGraph, Google Gemini, Pandas, and SQLite.
+        </p>
+
+        <h2>Project Features</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>File Analysis Agent</h3>
+                <p>
+                    Performs analytical calculations on
+                    uploaded datasets using Pandas.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Database Agent</h3>
+                <p>
+                    Analyzes structured business records
+                    using SQLite queries.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Web Research Agent</h3>
+                <p>
+                    Retrieves external information using
+                    web and news search tools.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Data Cleaning Studio</h3>
+                <p>
+                    Supports human-approved cleaning,
+                    validation and audit logging.
+                </p>
+            </div>
+
+        </div>
+
+        <h2>Multi-Agent Architecture</h2>
+
+        <p>
+            User Question → LangGraph Supervisor →
+            Specialized Agent → Analytical Result
+        </p>
+
+        <h2>Technology Stack</h2>
+
+        <p>
+            Python | Streamlit | Pandas | Plotly |
+            LangGraph | Google Gemini | SQLite | DDGS
+        </p>
+
+        <a
+            class="button"
+            href="https://github.com/shivashakthimanivannan-droid/AI_Data_Analyst_Agent"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View Source Code on GitHub
+        </a>
+
+        <footer>
+            AI Data Analyst Agent — Project Showcase
+        </footer>
+
+    </main>
+</body>
+</html>
